@@ -1,0 +1,123 @@
+html{  
+    
+}
+
+#header {
+  display: flex; 
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  margin-left: 195px; 
+}
+
+#header-img {
+  width: 50px; 
+  height: 35px; 
+}
+
+#nav-bar {
+  background-color: black; 
+  color: white; 
+}
+
+.nav-link:link {
+  color: white; 
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase; 
+  padding: 30px;   
+}
+
+.nav-link:hover {
+  color: SaddleBrown;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body{
+  /* background: url(https://cdn.pixabay.com/photo/2018/07/19/13/51/potato-3548557_960_720.jpg) no-repeat fixed ; */ 
+  background-color: SaddleBrown; /* With some help from: https://www.w3schools.com/colors/colors_names.asp */ 
+  color: white; 
+  text-shadow: 2px 2px 2px black;  
+}
+
+a {
+  color: white;
+  background-color: transparent;
+}
+
+h1,h2,h3 {
+  padding-left: 250px; 
+  padding-top: 50px; 
+  font-size: 28px; 
+}
+
+p{
+  max-width: 800px; 
+  font-size: 24px; 
+  text-shadow: 2px 2px 2px black; /*with some help from: https://www.w3schools.com/css/css_text_shadow.asp */ 
+  padding-left: 250px ; 
+}
+
+#form{
+  padding-left: 250px; 
+}
+
+#video {
+  padding-left: 250px; 
+}
+
+@media (max-width: 400px){
+  #header{
+    margin-left: 10px; 
+     
+  }
+  p,h1,h2,h3,#form,#video,#footer{
+    padding-left: 60px; 
+  }
+  #buy-box,#buy-img{
+    margin-left: 60px; 
+  }
+}
+
+@media (max-width: 600px){
+  #header{
+    margin-left: 195px; 
+  }
+}
+
+#buy-box {
+  background: black; 
+  border: 2px dotted yellow;
+  padding: 10px;
+  border-radius: 20px;   
+  width: 250px; 
+  height: 230px;
+  text-align: center; 
+  margin-left: 250px; 
+}
+
+button {  
+  padding: 5px; 
+}
+
+#buy-img { 
+  background: black; 
+  border: 2px dotted yellow;
+  padding: 10px;
+  border-radius: 20px;   
+  width: 250px; 
+  height: 230px; 
+  margin-left: 300px;
+  margin-top: -250px; 
+}
+
+footer{
+  background-color: black; 
+  color: white; 
+  position: fixed; /* With help from: https://www.w3schools.com/css/css_navbar_horizontal.asp */ 
+  bottom: 0;
+  width: 100%;
+  padding-left: 250px; 
+  
+}
